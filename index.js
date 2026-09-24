@@ -22,3 +22,6 @@ const attendee = {
 function logAttendeeName(attendee) {
   console.log(attendee.name);
 }
+function logTicketPrice(attendee) {
+  console.log(attendee.ticketPrice);
+}
