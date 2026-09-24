@@ -31,3 +31,7 @@ function logTicketPrice(attendee) {
 function updateTicketType(attendee, newTicketType) {
   attendee.ticketType = newTicketType;
 }
+
+function removeEventProperty(attendee) {
+  delete attendee.event;
+}
