@@ -35,3 +35,7 @@ function updateTicketType(attendee, newTicketType) {
 function removeEventProperty(attendee) {
   delete attendee.event;
 }
+
+function addCheckedInProperty(attendee) {
+  attendee.checkedIn = true;
+}
