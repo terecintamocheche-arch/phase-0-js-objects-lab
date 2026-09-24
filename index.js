@@ -19,3 +19,6 @@ const attendee = {
   ticketType: "VIP",
   ticketPrice: 150.00
 };
+function logAttendeeName(attendee) {
+  console.log(attendee.name);
+}
