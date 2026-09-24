@@ -12,3 +12,10 @@ module.exports = {
   ...(typeof removeEventProperty !== 'undefined' && { removeEventProperty }),
   ...(typeof addCheckedInProperty !== 'undefined' && { addCheckedInProperty })
 };
+const attendee = {
+  attendeeId: "T001",
+  name: "Alice Smith",
+  event: "JavaScript Conference",
+  ticketType: "VIP",
+  ticketPrice: 150.00
+};
